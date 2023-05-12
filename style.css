@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+
+    text-align: center;
+    color: cyan;
+
+}
+
+.textoPiscando{
+    color: yellow;
+    font-size: 4rem;
+    margin: 5rem 0rem;
+    text-align: center;
+    animation: piscaPisca 5s infinite;
+}
+@keyframes piscaPisca {
+    0% {color: yellow;}
+    10%{color: yellow;}
+    15%{color: black;}
+    20%{color: black;}
+    25%{color: green;}
+    35%{color: green;}
+    40%{color: black;}
+    45%{color: black;}
+    50%{color: blue;}
+    60%{color: blue;}
+    65%{color: black;}
+    70%{color: black;}
+    75%{color: red;}
+    85%{color: red;}
+    90%{color: black;}
+    95%{color: black;}
+    100%{color: yellow;}
+    
+
+}
